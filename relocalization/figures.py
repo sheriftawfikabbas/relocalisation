@@ -82,28 +82,3 @@ def write_beta_star_table(rows: Sequence[Dict[str, object]], threshold: float,
         writer.writeheader()
         writer.writerows(out)
     return out
-
-
-def plot_scenario_panels(result, path: str | Path) -> None:
-    """Width (undriven vs driven, log-y) and local exponent mu(t).
-
-    The first mu(t) sample is dropped because effective_alpha uses log-time and
-    the t=0 sample produces a meaningless first value.
-    """
-    plt = _pyplot()
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fig, axes = plt.subplots(2, 1, figsize=(6.4, 6.0), sharex=True)
-    axes[0].plot(result.times, result.width_undriven, label="undriven", lw=1.2)
-    axes[0].plot(result.times, result.width_driven, label="driven (optimized)", lw=1.2)
-    axes[0].set_yscale("log")
-    axes[0].set_ylabel("width")
-    axes[0].legend(frameon=False, fontsize=8)
-    axes[0].set_title(f"Scenario {result.scenario}, beta={result.beta:g}, {result.ansatz}")
-    axes[1].plot(result.times[1:], result.mu_driven[1:], lw=1.2)
-    axes[1].axhline(0.0, color="black", ls=":", lw=1.0)
-    axes[1].set_ylabel("local exponent mu(t)")
-    axes[1].set_xlabel("time")
-    fig.tight_layout()
-    fig.savefig(path, dpi=180)
-    plt.close(fig)
