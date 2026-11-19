@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Companion paper sources live in the private a2i2_physics_models repo
+manuscript/
+
