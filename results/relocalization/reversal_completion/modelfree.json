@@ -1,0 +1,232 @@
+[
+ {
+  "case": "refine_model_control",
+  "beta_true": 1.2,
+  "lam_true": 1.03,
+  "shots": 0,
+  "F_start": 0.42056972659009767,
+  "history": [
+   {
+    "iter": 0,
+    "evaluations": 2,
+    "F_true": 0.4316217532352089
+   },
+   {
+    "iter": 100,
+    "evaluations": 202,
+    "F_true": 0.6582253949211706
+   },
+   {
+    "iter": 200,
+    "evaluations": 402,
+    "F_true": 0.7513907041913378
+   },
+   {
+    "iter": 300,
+    "evaluations": 602,
+    "F_true": 0.7888201419189291
+   },
+   {
+    "iter": 400,
+    "evaluations": 802,
+    "F_true": 0.8104590386769236
+   },
+   {
+    "iter": 500,
+    "evaluations": 1002,
+    "F_true": 0.8249880892825945
+   },
+   {
+    "iter": 600,
+    "evaluations": 1202,
+    "F_true": 0.8340076736477714
+   },
+   {
+    "iter": 700,
+    "evaluations": 1402,
+    "F_true": 0.8408122581512041
+   },
+   {
+    "iter": 800,
+    "evaluations": 1602,
+    "F_true": 0.8459305583877043
+   },
+   {
+    "iter": 900,
+    "evaluations": 1802,
+    "F_true": 0.8494381402100034
+   },
+   {
+    "iter": 1000,
+    "evaluations": 2002,
+    "F_true": 0.853120180002657
+   },
+   {
+    "iter": 1100,
+    "evaluations": 2202,
+    "F_true": 0.8566623034636058
+   },
+   {
+    "iter": 1200,
+    "evaluations": 2402,
+    "F_true": 0.8594313115727069
+   },
+   {
+    "iter": 1300,
+    "evaluations": 2602,
+    "F_true": 0.861645319689684
+   },
+   {
+    "iter": 1400,
+    "evaluations": 2802,
+    "F_true": 0.8635667750717512
+   },
+   {
+    "iter": 1500,
+    "evaluations": 3002,
+    "F_true": 0.8649883721360485
+   },
+   {
+    "iter": 1600,
+    "evaluations": 3202,
+    "F_true": 0.867185189796115
+   },
+   {
+    "iter": 1700,
+    "evaluations": 3402,
+    "F_true": 0.8691066194777561
+   },
+   {
+    "iter": 1800,
+    "evaluations": 3602,
+    "F_true": 0.870644885263361
+   },
+   {
+    "iter": 1900,
+    "evaluations": 3802,
+    "F_true": 0.8719773381351951
+   },
+   {
+    "iter": 1999,
+    "evaluations": 4000,
+    "F_true": 0.8730444116323153
+   }
+  ],
+  "F_final": 0.8730444116323153
+ },
+ {
+  "case": "refine_model_control",
+  "beta_true": 1.2,
+  "lam_true": 1.03,
+  "shots": 1000,
+  "F_start": 0.42056972659009767,
+  "history": [
+   {
+    "iter": 0,
+    "evaluations": 2,
+    "F_true": 0.4312614397842056
+   },
+   {
+    "iter": 100,
+    "evaluations": 202,
+    "F_true": 0.6083028298034998
+   },
+   {
+    "iter": 200,
+    "evaluations": 402,
+    "F_true": 0.6705048081326989
+   },
+   {
+    "iter": 300,
+    "evaluations": 602,
+    "F_true": 0.7175215909213711
+   },
+   {
+    "iter": 400,
+    "evaluations": 802,
+    "F_true": 0.7585431042718592
+   },
+   {
+    "iter": 500,
+    "evaluations": 1002,
+    "F_true": 0.7683432656195069
+   },
+   {
+    "iter": 600,
+    "evaluations": 1202,
+    "F_true": 0.7945635297887752
+   },
+   {
+    "iter": 700,
+    "evaluations": 1402,
+    "F_true": 0.7991732489949753
+   },
+   {
+    "iter": 800,
+    "evaluations": 1602,
+    "F_true": 0.7990114719476914
+   },
+   {
+    "iter": 900,
+    "evaluations": 1802,
+    "F_true": 0.8152821492049408
+   },
+   {
+    "iter": 1000,
+    "evaluations": 2002,
+    "F_true": 0.820735777254389
+   },
+   {
+    "iter": 1100,
+    "evaluations": 2202,
+    "F_true": 0.8198725661547945
+   },
+   {
+    "iter": 1200,
+    "evaluations": 2402,
+    "F_true": 0.8222568552442145
+   },
+   {
+    "iter": 1300,
+    "evaluations": 2602,
+    "F_true": 0.8212689206888153
+   },
+   {
+    "iter": 1400,
+    "evaluations": 2802,
+    "F_true": 0.8245746454820446
+   },
+   {
+    "iter": 1500,
+    "evaluations": 3002,
+    "F_true": 0.828211540072316
+   },
+   {
+    "iter": 1600,
+    "evaluations": 3202,
+    "F_true": 0.8305835571811279
+   },
+   {
+    "iter": 1700,
+    "evaluations": 3402,
+    "F_true": 0.8360451263444884
+   },
+   {
+    "iter": 1800,
+    "evaluations": 3602,
+    "F_true": 0.8370851020340548
+   },
+   {
+    "iter": 1900,
+    "evaluations": 3802,
+    "F_true": 0.8451298026580362
+   },
+   {
+    "iter": 1999,
+    "evaluations": 4000,
+    "F_true": 0.8429889103748164
+   }
+  ],
+  "F_final": 0.8429889103748164
+ }
+]

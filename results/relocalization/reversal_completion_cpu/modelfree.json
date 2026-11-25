@@ -1,0 +1,548 @@
+[
+ {
+  "case": "refine_model_control",
+  "beta_true": 1.2,
+  "lam_true": 1.03,
+  "shots": 0,
+  "F_start": 0.42056972659017067,
+  "history": [
+   {
+    "iter": 0,
+    "evaluations": 2,
+    "F_true": 0.4316217532352871
+   },
+   {
+    "iter": 100,
+    "evaluations": 202,
+    "F_true": 0.6582253949212422
+   },
+   {
+    "iter": 200,
+    "evaluations": 402,
+    "F_true": 0.7513907041914037
+   },
+   {
+    "iter": 300,
+    "evaluations": 602,
+    "F_true": 0.788820141918994
+   },
+   {
+    "iter": 400,
+    "evaluations": 802,
+    "F_true": 0.8104590386769945
+   },
+   {
+    "iter": 500,
+    "evaluations": 1002,
+    "F_true": 0.8249880892826578
+   },
+   {
+    "iter": 600,
+    "evaluations": 1202,
+    "F_true": 0.8340076736478403
+   },
+   {
+    "iter": 700,
+    "evaluations": 1402,
+    "F_true": 0.84081225815127
+   },
+   {
+    "iter": 800,
+    "evaluations": 1602,
+    "F_true": 0.8459305583877699
+   },
+   {
+    "iter": 900,
+    "evaluations": 1802,
+    "F_true": 0.8494381402100685
+   },
+   {
+    "iter": 1000,
+    "evaluations": 2002,
+    "F_true": 0.8531201800027216
+   },
+   {
+    "iter": 1100,
+    "evaluations": 2202,
+    "F_true": 0.8566623034636718
+   },
+   {
+    "iter": 1200,
+    "evaluations": 2402,
+    "F_true": 0.8594313115727689
+   },
+   {
+    "iter": 1300,
+    "evaluations": 2602,
+    "F_true": 0.8616453196897488
+   },
+   {
+    "iter": 1400,
+    "evaluations": 2802,
+    "F_true": 0.8635667750718189
+   },
+   {
+    "iter": 1500,
+    "evaluations": 3002,
+    "F_true": 0.8649883721361143
+   },
+   {
+    "iter": 1600,
+    "evaluations": 3202,
+    "F_true": 0.8671851897961819
+   },
+   {
+    "iter": 1700,
+    "evaluations": 3402,
+    "F_true": 0.8691066194778215
+   },
+   {
+    "iter": 1800,
+    "evaluations": 3602,
+    "F_true": 0.870644885263423
+   },
+   {
+    "iter": 1900,
+    "evaluations": 3802,
+    "F_true": 0.8719773381352621
+   },
+   {
+    "iter": 1999,
+    "evaluations": 4000,
+    "F_true": 0.873044411632379
+   }
+  ],
+  "F_final": 0.873044411632379
+ },
+ {
+  "case": "refine_model_control",
+  "beta_true": 1.2,
+  "lam_true": 1.03,
+  "shots": 1000,
+  "F_start": 0.42056972659017067,
+  "history": [
+   {
+    "iter": 0,
+    "evaluations": 2,
+    "F_true": 0.4312614397842807
+   },
+   {
+    "iter": 100,
+    "evaluations": 202,
+    "F_true": 0.6083028298035549
+   },
+   {
+    "iter": 200,
+    "evaluations": 402,
+    "F_true": 0.6705048081327611
+   },
+   {
+    "iter": 300,
+    "evaluations": 602,
+    "F_true": 0.7175215909214202
+   },
+   {
+    "iter": 400,
+    "evaluations": 802,
+    "F_true": 0.758543104271917
+   },
+   {
+    "iter": 500,
+    "evaluations": 1002,
+    "F_true": 0.7683432656195636
+   },
+   {
+    "iter": 600,
+    "evaluations": 1202,
+    "F_true": 0.7945635297888349
+   },
+   {
+    "iter": 700,
+    "evaluations": 1402,
+    "F_true": 0.7991732489950382
+   },
+   {
+    "iter": 800,
+    "evaluations": 1602,
+    "F_true": 0.7990114719477536
+   },
+   {
+    "iter": 900,
+    "evaluations": 1802,
+    "F_true": 0.815282149205002
+   },
+   {
+    "iter": 1000,
+    "evaluations": 2002,
+    "F_true": 0.8207357772544503
+   },
+   {
+    "iter": 1100,
+    "evaluations": 2202,
+    "F_true": 0.8198725661548565
+   },
+   {
+    "iter": 1200,
+    "evaluations": 2402,
+    "F_true": 0.8222568552442725
+   },
+   {
+    "iter": 1300,
+    "evaluations": 2602,
+    "F_true": 0.821268920688872
+   },
+   {
+    "iter": 1400,
+    "evaluations": 2802,
+    "F_true": 0.8245746454820936
+   },
+   {
+    "iter": 1500,
+    "evaluations": 3002,
+    "F_true": 0.8282115400723706
+   },
+   {
+    "iter": 1600,
+    "evaluations": 3202,
+    "F_true": 0.8305835571811772
+   },
+   {
+    "iter": 1700,
+    "evaluations": 3402,
+    "F_true": 0.8360451263445474
+   },
+   {
+    "iter": 1800,
+    "evaluations": 3602,
+    "F_true": 0.837085102034115
+   },
+   {
+    "iter": 1900,
+    "evaluations": 3802,
+    "F_true": 0.8451298026580994
+   },
+   {
+    "iter": 1999,
+    "evaluations": 4000,
+    "F_true": 0.8429889103748773
+   }
+  ],
+  "F_final": 0.8429889103748773
+ },
+ {
+  "case": "from_scratch_smooth",
+  "K": 76,
+  "Omega_max": 4.0,
+  "shots": 1000,
+  "beta_true": 1.2,
+  "lam_true": 1.03,
+  "history": [
+   {
+    "iter": 0,
+    "evaluations": 2,
+    "F_true": 0.37300079473353237
+   },
+   {
+    "iter": 100,
+    "evaluations": 202,
+    "F_true": 0.0807709075333773
+   },
+   {
+    "iter": 200,
+    "evaluations": 402,
+    "F_true": 0.12137237520435867
+   },
+   {
+    "iter": 300,
+    "evaluations": 602,
+    "F_true": 0.09963899462675344
+   },
+   {
+    "iter": 400,
+    "evaluations": 802,
+    "F_true": 0.12416776357658067
+   },
+   {
+    "iter": 500,
+    "evaluations": 1002,
+    "F_true": 0.10603619167874812
+   },
+   {
+    "iter": 600,
+    "evaluations": 1202,
+    "F_true": 0.14859940993748974
+   },
+   {
+    "iter": 700,
+    "evaluations": 1402,
+    "F_true": 0.19475744771871897
+   },
+   {
+    "iter": 800,
+    "evaluations": 1602,
+    "F_true": 0.15823550153593555
+   },
+   {
+    "iter": 900,
+    "evaluations": 1802,
+    "F_true": 0.15844599028120682
+   },
+   {
+    "iter": 1000,
+    "evaluations": 2002,
+    "F_true": 0.20235667262947585
+   },
+   {
+    "iter": 1100,
+    "evaluations": 2202,
+    "F_true": 0.21764176014280082
+   },
+   {
+    "iter": 1200,
+    "evaluations": 2402,
+    "F_true": 0.24158005748539935
+   },
+   {
+    "iter": 1300,
+    "evaluations": 2602,
+    "F_true": 0.1897338123686058
+   },
+   {
+    "iter": 1400,
+    "evaluations": 2802,
+    "F_true": 0.20829271055812684
+   },
+   {
+    "iter": 1500,
+    "evaluations": 3002,
+    "F_true": 0.19790492468629314
+   },
+   {
+    "iter": 1600,
+    "evaluations": 3202,
+    "F_true": 0.1981040104810727
+   },
+   {
+    "iter": 1700,
+    "evaluations": 3402,
+    "F_true": 0.26142887009289434
+   },
+   {
+    "iter": 1800,
+    "evaluations": 3602,
+    "F_true": 0.22042487861100146
+   },
+   {
+    "iter": 1900,
+    "evaluations": 3802,
+    "F_true": 0.2624901743429211
+   },
+   {
+    "iter": 2000,
+    "evaluations": 4002,
+    "F_true": 0.2430057789847811
+   },
+   {
+    "iter": 2100,
+    "evaluations": 4202,
+    "F_true": 0.26329710987457117
+   },
+   {
+    "iter": 2200,
+    "evaluations": 4402,
+    "F_true": 0.26152959808374215
+   },
+   {
+    "iter": 2300,
+    "evaluations": 4602,
+    "F_true": 0.25619270830387636
+   },
+   {
+    "iter": 2400,
+    "evaluations": 4802,
+    "F_true": 0.2442002573620056
+   },
+   {
+    "iter": 2500,
+    "evaluations": 5002,
+    "F_true": 0.28858177092134396
+   },
+   {
+    "iter": 2600,
+    "evaluations": 5202,
+    "F_true": 0.28442591934393463
+   },
+   {
+    "iter": 2700,
+    "evaluations": 5402,
+    "F_true": 0.2816609357463143
+   },
+   {
+    "iter": 2800,
+    "evaluations": 5602,
+    "F_true": 0.33150344375731366
+   },
+   {
+    "iter": 2900,
+    "evaluations": 5802,
+    "F_true": 0.32860182910961844
+   },
+   {
+    "iter": 3000,
+    "evaluations": 6002,
+    "F_true": 0.3104042491698495
+   },
+   {
+    "iter": 3100,
+    "evaluations": 6202,
+    "F_true": 0.29775801529892443
+   },
+   {
+    "iter": 3200,
+    "evaluations": 6402,
+    "F_true": 0.3163755083444776
+   },
+   {
+    "iter": 3300,
+    "evaluations": 6602,
+    "F_true": 0.32521873874231366
+   },
+   {
+    "iter": 3400,
+    "evaluations": 6802,
+    "F_true": 0.35667970607034116
+   },
+   {
+    "iter": 3500,
+    "evaluations": 7002,
+    "F_true": 0.33350155636959994
+   },
+   {
+    "iter": 3600,
+    "evaluations": 7202,
+    "F_true": 0.3549243117553996
+   },
+   {
+    "iter": 3700,
+    "evaluations": 7402,
+    "F_true": 0.3931149868340011
+   },
+   {
+    "iter": 3800,
+    "evaluations": 7602,
+    "F_true": 0.3829532964610026
+   },
+   {
+    "iter": 3900,
+    "evaluations": 7802,
+    "F_true": 0.36645548214231527
+   },
+   {
+    "iter": 4000,
+    "evaluations": 8002,
+    "F_true": 0.3788526113386695
+   },
+   {
+    "iter": 4100,
+    "evaluations": 8202,
+    "F_true": 0.39592643926761106
+   },
+   {
+    "iter": 4200,
+    "evaluations": 8402,
+    "F_true": 0.3743962222959946
+   },
+   {
+    "iter": 4300,
+    "evaluations": 8602,
+    "F_true": 0.3549323005449872
+   },
+   {
+    "iter": 4400,
+    "evaluations": 8802,
+    "F_true": 0.40237193334377724
+   },
+   {
+    "iter": 4500,
+    "evaluations": 9002,
+    "F_true": 0.3933285375209629
+   },
+   {
+    "iter": 4600,
+    "evaluations": 9202,
+    "F_true": 0.4142792991726524
+   },
+   {
+    "iter": 4700,
+    "evaluations": 9402,
+    "F_true": 0.4166367354990908
+   },
+   {
+    "iter": 4800,
+    "evaluations": 9602,
+    "F_true": 0.39274155521152776
+   },
+   {
+    "iter": 4900,
+    "evaluations": 9802,
+    "F_true": 0.39480443874524357
+   },
+   {
+    "iter": 5000,
+    "evaluations": 10002,
+    "F_true": 0.4105017355159597
+   },
+   {
+    "iter": 5100,
+    "evaluations": 10202,
+    "F_true": 0.4174740160335353
+   },
+   {
+    "iter": 5200,
+    "evaluations": 10402,
+    "F_true": 0.41252745919236644
+   },
+   {
+    "iter": 5300,
+    "evaluations": 10602,
+    "F_true": 0.42964387503645163
+   },
+   {
+    "iter": 5400,
+    "evaluations": 10802,
+    "F_true": 0.4198583641910723
+   },
+   {
+    "iter": 5500,
+    "evaluations": 11002,
+    "F_true": 0.46076344649776263
+   },
+   {
+    "iter": 5600,
+    "evaluations": 11202,
+    "F_true": 0.4527867475229918
+   },
+   {
+    "iter": 5700,
+    "evaluations": 11402,
+    "F_true": 0.4639551434636246
+   },
+   {
+    "iter": 5800,
+    "evaluations": 11602,
+    "F_true": 0.4405877483915859
+   },
+   {
+    "iter": 5900,
+    "evaluations": 11802,
+    "F_true": 0.47052782999111825
+   },
+   {
+    "iter": 5999,
+    "evaluations": 12000,
+    "F_true": 0.47364583953086625
+   }
+  ],
+  "F_final": 0.47364583953086625
+ }
+]
